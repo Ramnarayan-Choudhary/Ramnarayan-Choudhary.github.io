@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramnarayan Choudhary | NLP Engineer & AI Researcher</title>
+    <meta name="description"
+        content="NLP Engineer and AI Researcher specializing in LLMs, Privacy, and Agentic Systems. MS Student at MBZUAI, Alumnus of IIT Bombay.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Ramnarayan Choudhary</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#research">Research</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-top">
+                    <div class="hero-photo">
+                        <img src="IMG_0978.jpg" alt="Ramnarayan Choudhary">
+                    </div>
+                    <div class="hero-info">
+                        <h1>Ramnarayan Choudhary</h1>
+                        <p class="hero-education">
+                            <span class="edu-badge">MS @ MBZUAI</span>
+                            <span class="edu-badge">BTech @ IIT Bombay</span>
+                        </p>
+                        <p class="hero-tagline">NLP Engineer • AI Researcher</p>
+                    </div>
+                </div>
+
+                <div class="hero-description">
+                    <p>
+                        I research and build intelligent systems at the intersection of language and vision.
+                        My work focuses on LLM safety, privacy-preserving methods, and agentic AI systems.
+                    </p>
+                </div>
+
+                <div class="research-areas">
+                    <h3>Research Interests</h3>
+                    <div class="areas-grid">
+                        <div class="area-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Agentic Systems</span>
+                        </div>
+                        <div class="area-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>LLM Safety and privacy</span>
+                        </div>
+                        <div class="area-item">
+                            <i class="fas fa-lock"></i>
+                            <span>Information retrieval</span>
+                        </div>
+                        <div class="area-item">
+                            <i class="fas fa-sliders-h"></i>
+                            <span> Multilinguality and cross-model</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#research" class="btn btn-primary">
+                        <i class="fas fa-flask"></i> View Research
+                    </a>
+                    <a href="Ramnarayan_CV (7).pdf" class="btn btn-outline" target="_blank">
+                        <i class="fas fa-file-pdf"></i> Resume
+                    </a>
+                </div>
+
+                <div class="hero-social">
+                    <a href="https://linkedin.com/in/ramnarayanchoudhary" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/ramnarayanchoudhary" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:choudharyramnarayan123@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research Projects</h2>
+                <p>Advancing AI through foundational research in NLP, LLMs, and safety</p>
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-tag">LLM Research</div>
+                    <h3>Inference-time Steering in LLMs</h3>
+                    <p>
+                        Investigated inference-time activation steering as a unifying framework for controlling
+                        reasoning and alignment behaviors in LLMs. Designed contrastive steering methods that
+                        intervene in transformer hidden representations to modulate behavior without parameter updates.
+                    </p>
+                    <div class="card-tags">
+                        <span>LLMs</span>
+                        <span>Activation Steering</span>
+                        <span>Alignment</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-tag">Privacy Research</div>
+                    <h3>PromptGCG: Gradient-based Prompt Sanitization</h3>
+                    <p>
+                        Proposed a gradient-based prompt sanitization method that optimizes private token replacements
+                        to minimize privacy leakage while preserving task utility. Developed a formal privacy–utility
+                        evaluation framework with adversarial inference attacks.
+                    </p>
+                    <div class="card-tags">
+                        <span>Privacy</span>
+                        <span>Prompt Engineering</span>
+                        <span>Adversarial</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-tag">Code Analysis</div>
+                    <h3>Machine-Generated Code Detection</h3>
+                    <p>
+                        Investigated machine-generated code detection under cross-language and multi-generator settings.
+                        Analyzed how different adaptation regimes (full fine-tuning, PEFT, prompting) affect semantic
+                        vs. superficial cue capture in code provenance classification.
+                    </p>
+                    <div class="card-tags">
+                        <span>Code Analysis</span>
+                        <span>PEFT</span>
+                        <span>Detection</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Projects</h2>
+                <p>Practical applications of AI and machine learning</p>
+            </div>
+            <div class="cards-grid cards-grid-3">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Smart PDF Reader</h3>
+                    <p>
+                        Built a RAG system using LangChain + Llama 3.1 for large document QA with intelligent retrieval.
+                    </p>
+                    <a href="#" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>User Engagement Prediction</h3>
+                    <p>
+                        Modeled next-month user activity using ensemble learning. <strong>3rd place among 850+
+                            teams</strong> on Zindi challenge.
+                    </p>
+                    <a href="#" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Language Translation</h3>
+                    <p>
+                        Implemented Transformer architecture with self-attention, reducing training time by 72%.
+                    </p>
+                    <a href="#" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Experience</h2>
+                <p>Research and industry positions</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">May 2025 - Aug 2025</div>
+                    <div class="timeline-content">
+                        <h3>Generative AI Engineer</h3>
+                        <div class="timeline-company">AITHON, Mumbai</div>
+                        <p>
+                            Designed an end-to-end modular document intelligence system using GPT-4o and Gemini 2.5 Pro,
+                            achieving 95%+ task accuracy. Built LangGraph-based intelligent routing and real-time
+                            analytics dashboard.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Jul 2024 - Aug 2024</div>
+                    <div class="timeline-content">
+                        <h3>LLM R&D Intern</h3>
+                        <div class="timeline-company">Attentions.ai, Pune</div>
+                        <p>
+                            Fine-tuned long-context LLMs (Phi-3 128k) for structured SQL generation using PEFT methods,
+                            achieving 83% execution accuracy. Deployed ML system on AWS with MERN integration.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">May 2024 - Jun 2024</div>
+                    <div class="timeline-content">
+                        <h3>AI Research Intern</h3>
+                        <div class="timeline-company">Mohamed bin Zayed University of AI (MBZUAI)</div>
+                        <p>
+                            Conducted research on LLM-based reasoning for Linguistic Olympiad problems.
+                            Developed multi-agent reasoning pipelines, improving accuracy to 68% (+11% over baselines).
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">May 2023 - Jun 2023</div>
+                    <div class="timeline-content">
+                        <h3>Computer Vision Intern</h3>
+                        <div class="timeline-company">Assert AI Secure Tech, Mumbai</div>
+                        <p>
+                            Developed YOLO-based toll plaza surveillance system trained on 100K+ CCTV images.
+                            Deployed on Jetson Nano using DeepStream, achieving 99.3% mAP in real-time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <div class="contact-box">
+                <h2>Let's Connect</h2>
+                <p>
+                    Interested in collaboration or have questions about my research? Feel free to reach out.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:choudharyramnarayan123@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        choudharyramnarayan123@gmail.com
+                    </a>
+                    <a href="https://linkedin.com/in/ramnarayanchoudhary" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn Profile
+                    </a>
+                    <a href="https://github.com/ramnarayanchoudhary" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ramnarayan Choudhary. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

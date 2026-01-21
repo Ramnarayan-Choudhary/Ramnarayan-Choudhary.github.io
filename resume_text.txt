@@ -1,0 +1,242 @@
+Pursuing a Minor in Machine Learning & Data Science at Centre for Machine Intelligence & Data Science (C-MinDS)
+
+SCHOLASTIC ACHIEVEMENTS
+Among top 1% in NDA-146, qualified for SSB Interview among 400k+ candidates, Ministry of Defence, India (2021)
+Received INR 251K from the Government of Rajasthan for achieving 1st district rank in Intermediate exam (2020)
+• Among the top 300 students from Rajasthan who got selected for RMO (Regional Mathematics Olympiad) (2018)
+•
+•
+
+PROFESSIONAL EXPERIENCE
+AI Research Intern| MBZUAI | Abu Dhabi, UAE
+
+(Jun’24 - Aug’24)
+
+Among 44 from 1000+applicants from 82 nations and Received Letter of Recommendation by Reporting Manager
+LLMs vs. Linguistics Olympiad: A Quest for Mastery
+Collaborated with team of 7 to develop an advanced LLM for Linguistic Olympiad problems
+
+•
+
+Objective · Developed a Multi-LLM framework to solve complex linguistic challenges in the Olympiad Problems
+· Designed a benchmarking pipeline to evaluate LLMs (GPTs, Llama, Mistral) on 4 custom datasets
+Approach · Implemented Code Generation, Multi Agent reasoning Algorithms for improvement of the result
+· Applied Prompt Eng.(tree of thoughts, principled), enhance LLM performance & reduce hallucinations
+Impact
+•
+
+· Achieved state-of-the-art performance with accuracy of 71%, marking an 11% improvement over
+previous models, with COT Prompt, Discovered significant data contamination in current LLMs
+
+Multilingual Multitask Zero-Shot Generalization Of Encoder Models
+· Created translation encoder models, implemented statement-tuning methodology, for 22 different language pairs
+· Improved translation accuracy by XLMR & mBERT, 19.13% over existing Decoder models, on mCOPA dataset
+
+Data Science Intern | Attentions.ai | Pune
+
+(May’24 - Jun’24)
+
+•
+
+Generate SQL Query using LLM, made pipeline for visualization and extract insights from various custom datasets
+
+•
+
+Finetuned phi3-128k model on custom dataset for SQL query generation, extract data insights, with 83% Accuracy
+Deployed trained model on AWS using S3, Amazon SageMaker& Lambda for scalable machine learning operations
+
+•
+•
+
+Developed End to end full stack Application using MongoDB, Express, React & Nodejs for production purpose
+
+Computer Vision Intern | Assert Secure Pvt Ltd
+
+| Mumbai
+
+(Jun’23 - Jul’23)
+
+Received Letter of Recommendation by CEO for a dedicated performance during the internship
+•
+
+Worked with IRB Infrastructure Company, enhance security on toll plaza using detection and tracking algorithms
+
+Trained Yolo model on Darknet framework with 100,000+ CCTV images, deployed on Jetson Nano, real-time
+object detection and tracking using DeepStream with RTSP, significantly enhancing security monitoring capabilities
+• Achieved 99.3% mean average precision (mAP) on detection and 88.15% accuracy in Multiple Objects tracking
+•
+
+KEY PROJECTS
+The Smart PDF Reader | Academic Project
+Guide: Prof. Amit Sethi — Data Science and machine learning Intelligence
+•
+•
+•
+
+(Feb’24 - Apr’24)
+
+Developed a RAG system using LangChain to generate relevant answers based on large documents with Llama 3.1
+Integrated document processing, embedding generation, and retrieval mechanisms to enhance the accuracy of QA
+Optimized query handling by implementing embedding strategy, ensuring rapid, precise retrieval of relevant sections
+
+Synthetic Dataset Generator | Academic Project
+
+(Jul’22 - Aug’24)
+
+Guide: Prof. Asim Tiwari — Data Science and machine learning Intelligence
+•
+
+Developed & implemented GAN, used generator-discriminator model architecture to generate new artificial samples
+
+•
+
+Minimised MSE for model in TensorFlow using Leaky-ReLU and tanh activations, along with the Adam optimizer
+
+•
+
+Fine-tuned hyperparameters to improve model performance, achieving a 9.68 RMSE on GAN-generated dataset
+
+Creditworthiness using Machine Learning | Academic Project
+
+(Jul’23 - Aug’23)
+
+Guide: Prof. B. Palaniappan — Data Science and machine learning Intelligence
+•
+
+Conducted EDA, data cleaning, feature engineering & Chi-Square test, correlation analysis for variable relationship
+
+•
+
+Utilized Random Forest, Decision Tree, XGBoost, SVM & Voting Classifier to identify creditworthy applicants
+
+•
+
+Achieved F1-score 0.88, test Accuracy 81% with Voting Classifier model, analyzed Confusion Matrix & AUC-ROC
+
+Attention Is All You Need | Self Project
+
+(Sep’23 - Dec’23)
+
+Implementation of transformer architeture mentioned in Attention Is All You Need paper
+•
+
+Implemented transformer Architecture using self & multi-head attention mechanisms, inplace of RNNs and CNNs
+
+•
+
+Used positional embedding, Uniform Length Batching & Automatic Mixed Precision, reduced training time by 72%
+
+•
+
+Applied Parameter Sharing between layers, used Leaky ReLU as activation, to achieve a loss of 1.6 in 28 epoch
+
+OTHER PROJECTS
+ML Assisted Stock Price Prediction | Self Project
+•
+
+(Feb’23 - Apr’23)
+Utilized Python libraries such as pandas, numpy, yfinance, Scikit-learn & TensorFlow to fetch historical stock data
+
+•
+
+Implemented ARIMA, SMA20 & Naive models on reliance time series data for precise stock price forecasting
+
+•
+
+Achieved the Root mean squared error (RMSE) of 2.27 by implementing LSTM model after parameter optimization
+
+Facial Recognition
+•
+•
+
+| Self Project
+(Jan’23 - Feb’23)
+Developed a PyTorch class for triplet loss, handling loading and transforming anchor, positive, and negative images
+Implemented Siamese network using ResNet-50 for face recognition, enhancing model accuracy by transfer learning
+
+Automated Custom Messaging
+•
+•
+
+| Self Project
+(Feb’23 - Mar’23)
+Automated the WhatsApp messaging using Selenium and Pandas library to send images and text 18% faster
+Offered as an option in the institute general elections which saved 20+ hours and reduced accounts blocking by 40%
+
+SAHARA | Startup Course Project | Team Project
+
+(Aug’22 - Dec’22)
+
+Guide: Prof. Raj Jaswa — Desai Sethi Centre For Entrepreneurship
+• Led a team of 6 in brainstorming and ideation of innovative idea that connects households with service providers
+•
+
+Identified target market,developed Business Model Canvas, Go-To-Market strategy, Unique Selling Proposition (USP)
+
+POSITIONS OF RESPONSILBILITES
+Overall Head | Mess Council | Hostel 2, IIT Bombay
+
+(Mar’23 - Apr’24)
+
+Representative of Hostel 2 in Institute Mess and Hostel Affair Council
+Digitized mess card system with insti app & launched a portal to improve transparency in mess
+Orchestrated Zero Waste Campaign, resulting 82.5% food wastage reduction on daily basis in mess
+• Superheaded of a team of 2 mess secretaries to oversee and manage the functioning of mess & canteen
+Roles &
+Budget
+serving 500+ hostel inmates, coordinated with other head to win overall sports general championship
+• Managing a total budget of INR 10 M+ per Sem., Purchased kitchen utensils worth INR 0.6 M
+•
+
+Initiative •
+
+Mentorship and Assistant | IIT Bombay
+
+(Feb’23 - Mar’23)
+
+Codewars Mentor : Mentored 2 teams during the Codewars and helped them develop a bot for game development
+Conducted strategy development sessions to help my teams come up with different strategies
+• NEC Assistant : Assisted in the mentoring of 30+ teams across India, to set up their own Entrepreneurship Cell
+Collaborated weekly with a team of 28 to brainstorm, design, and implement 20+ key initiatives
+•
+
+TECHNICAL PROFICIENCY & COURSES UNDERTAKEN
+Languages/Libraries : C++, Python, SQL, Power BI, Tableau, Matplotlib, Pytorch, Scikit-learn, Tensorflow, JS
+Software Skills : Github, AWS, Microsoft Excel, Linux, LATEX, Postman, React, MongoDB, Express, Node, VS Code
+CS & DS Courses : Introduction of Computer Programming & Algorithm, Data Analysis for Chemist, Introduction
+to machine learning & Advance Machine Learning, Statistical Machine Learning & Data Mining, Calculus, Algebra
+
+EXTRA-CURRICULARS
+•
+
+Completed a year-long course under NCC IIT Bombay as a cadet at 2 MAHR ENGR REGIMENT
+
+•
+
+Volunteered for and participated in the Powai Lake Clean-up initiative administered by Abhyuday, IITB (2021)
+
+(2021)
+
+•
+
+Informals Coordinator at Mood Indigo, Asia’s largest College Cultural Festival, with 146,000+ of footfall (2022)
+
+•
+
+Achieved top 3 position in ERC’s obstacle maneuvering bot competition, with 75+ participating teams
+
+•
+
+Participated & bagged best Performing Arts Festival (PAF), winning 12/12 genre awards,10-year milestone (2023)
+
+•
+
+Bagged 1st position in 5 Km run under the Hostel Crossy GC organized by Aavhan, representing Hostel 2 (2024)
+
+•
+
+Interests - Trekking | Running | Cricket | Traveling | Cycling | Chess | Reading | Gym | Photography
+
+(2022)
+
+

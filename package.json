@@ -1,0 +1,46 @@
+{
+  "name": "ramnarayan-portfolio",
+  "version": "1.0.0",
+  "description": "Modern, interactive portfolio website for Ramnarayan Choudhary",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000 || python3 -m http.server 8000",
+    "dev": "live-server .",
+    "build": "npm run optimize",
+    "optimize": "echo 'Run image optimization and minification here'",
+    "deploy": "echo 'Deploy to your preferred hosting service'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "responsive",
+    "interactive",
+    "modern",
+    "student",
+    "iit-bombay",
+    "machine-learning",
+    "cybersecurity"
+  ],
+  "author": {
+    "name": "Ramnarayan Choudhary",
+    "email": "21b030030@iitb.ac.in",
+    "url": "https://github.com/ramnarayanchoudhary"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramnarayanchoudhary/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramnarayanchoudhary/portfolio/issues"
+  },
+  "homepage": "https://ramnarayanchoudhary.github.io/portfolio",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
